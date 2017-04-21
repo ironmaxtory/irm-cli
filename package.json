@@ -1,6 +1,6 @@
 {
   "name": "irm-cli",
-  "version": "0.0.12",
+  "version": "1.0.0",
   "description": "A simple CLI for scaffolding common projects.",
   "preferGlobal": true,
   "bin": {
