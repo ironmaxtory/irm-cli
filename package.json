@@ -4,9 +4,9 @@
   "description": "A simple CLI for scaffolding common projects.",
   "preferGlobal": true,
   "bin": {
-    "irm": "bin/vue",
-    "irm-init": "bin/vue-init",
-    "irm-list": "bin/vue-list"
+    "irm": "bin/irm",
+    "irm-init": "bin/irm-init",
+    "irm-list": "bin/irm-list"
   },
   "files": [
     "lib",
