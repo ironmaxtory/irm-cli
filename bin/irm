@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+var program = require('commander');
+
+/*
+  @command: 执行的命令
+  @alias: 命令的简写
+  @description: 命令描述
+  @option: 命令后可以跟随的参数
+  @action: 执行命令后所执行的方法
+ */
+program
+    .version(require('../package').version)
+    .usage('<command> [options]')
+    .command('init', 'generate a new project from a template')
+    .command('list', 'list available official templates')
+    .parse(process.argv);
