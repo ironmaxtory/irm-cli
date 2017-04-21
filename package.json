@@ -18,7 +18,7 @@
     "irm",
     "cli"
   ],
-  "author": "ironmax <ironmax@163.com>",
+  "author": "ironmax",
   "license": "MIT",
   "dependencies": {
     "chalk": "1.1.3",
