@@ -35,6 +35,6 @@ then
   echo '[ Finish publishing ]'
 
   sleep 1
-  npm i -g irm-cli@latest
+  yarn global add irm-cli@latest
   echo '[ Finish installing ]'
 fi
