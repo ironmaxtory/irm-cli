@@ -31,10 +31,10 @@ then
   echo '[ Finish committing project ]'
   echo '[ Start publish --warning: Remmber to modify the version code ]'
 
-  yarn publish
+  npm publish
   echo '[ Finish publishing ]'
 
   sleep 1
-  yarn global add irm-cli@latest
+  npm i -g irm-cli@latest
   echo '[ Finish installing ]'
 fi
