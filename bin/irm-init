@@ -54,11 +54,13 @@ var to = path.resolve(rawName || '.');
 var clone = program.clone || false;
 
 var tmp = path.join(home, '.CachedTemplates', template.replace(/\//g, '-'))
+// 显式声明使用缓存目录
 if (program.offline) {
   console.log(`> Use cached template at ${chalk.yellow(tildify(tmp))}`)
   template = tmp
 }
 var cachedTmp = path.join(home, '.CachedTemplates');
+// 若缓存目录不存在，则创建
 if(!exists(cachedTmp)){
   shell.exec('mkdir '+cachedTmp);
 }

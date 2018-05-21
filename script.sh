@@ -31,7 +31,7 @@ then
   echo '[ Finish committing project ]'
   echo '[ Start publish --warning: Remmber to modify the version code ]'
 
-  yarn publish
+  npm publish
   echo '[ Finish publishing ]'
 
   sleep 1
